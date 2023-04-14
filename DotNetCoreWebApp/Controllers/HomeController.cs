@@ -18,6 +18,7 @@ namespace DotNetCoreWebApp.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
             return View();
@@ -25,6 +26,12 @@ namespace DotNetCoreWebApp.Controllers
 
         public IActionResult Privacy()
         {
+			
+            return View();
+        }
+		 public IActionResult Privacy1()
+        {
+			
             return View();
         }
 
