@@ -24,7 +24,7 @@ namespace DotNetCoreWebApp.Controllers
             return View();
         }
 
-		// Privacy
+		// Privacy action
         public IActionResult Privacy()
         {
 			
